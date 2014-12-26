@@ -3,7 +3,7 @@ import java.io.IOException;
 import javax.servlet.http.*;
 
 @SuppressWarnings("serial")
-public class Nasdaq_ReportsServlet extends HttpServlet {
+public class NasdaqReportsServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		resp.setContentType("text/html");
 		int num1;
